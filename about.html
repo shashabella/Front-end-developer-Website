@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--To connect css to the live server, use "/styles/app.css"-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="about-body">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Ayesha Issah</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <!--or instead of href = "index.html", you could use href="/"-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="sub-body">
+      <h1 class="about-heading">About me</h1>
+      <h3 class="sub-heading">Front-end developer from Accra, Ghana</h3>
+      <p class="about-paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vel nemo
+        totam eligendi. Optio, dignissimos. Dolores labore tenetur fuga veniam
+        laboriosam est similique quisquam quam consequuntur accusamus,
+        praesentium odio? Nulla.
+      </p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="/Images/yoga.png"
+            alt="Logo"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/Images/weather.png"
+            alt="Logo"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-sm-4">
+          <img
+            src="/Images/yoghurt.png"
+            alt="Logo"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <h2 class="contact-heading mt-5">📮 Contact me</h2>
+      <a href="mailto:ayeshaissah1@gmail.com" class="email-link"
+        >ayeshaissah1@gmail.com</a
+      >
+    </div>
+  </body>
+</html>
